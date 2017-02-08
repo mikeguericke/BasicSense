@@ -7,56 +7,50 @@ sense = SenseHat()
 #Set up Variables
 delay = 0.5
 
-#Set up the color pallet
-R = [255, 0, 0]
-G = [0, 255, 0]
-B = [0, 0, 255]
-X = [0, 0, 0]
-W = [255, 255, 255]
-#O = [255, 165, 0]
-
-#Set up the three scenes
-dispOne = [
-    W, W, W, R, R, W, W, W,
-    W, W, R, R, R, R, W, W,
-    W, R, R, R, R, R, R, W,
-    R, R, R, R, R, R, R, R,
-    W, W, W, R, R, W, W, W,
-    W, W, W, R, R, W, W, W,
-    W, W, W, R, R, W, W, W,
-    W, W, W, R, R, W, W, W,
-    ]
-
-dispTwo = [
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    ]
-
-dispThree = [
-    B, B, B, B, B, B, B, B,
-    B, B, B, B, B, B, B, B,
-    G, G, G, G, G, G, G, G,
-    G, G, G, G, G, G, G, G,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    X, X, X, X, X, X, X, X,
-    X, X, X, X, X, X, X, X,
-    ]
-
 #Excute code
 while True:
     sense.clear()
     sense.load_image("/home/pi/BasicSense/images/test.png")
     time.sleep(delay)
-    sense.clear()
     sense.load_image("/home/pi/BasicSense/images/test2.png")
     time.sleep(delay)
-    sense.clear()
     sense.load_image("/home/pi/BasicSense/images/test3.png")
     time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test4.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test5.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test6.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test7.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test8.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test9.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test10.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test11.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test12.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test13.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test14.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test15.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test16.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test17.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test18.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test19.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test20.png")
+    time.sleep(delay)
+    sense.load_image("/home/pi/BasicSense/images/test21.png")
+    time.sleep(delay)
+    
+    
