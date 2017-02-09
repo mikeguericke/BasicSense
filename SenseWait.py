@@ -39,14 +39,14 @@ dispTwo = [
     ]
 
 dispThree = [
+    B, B, B, B, R, R, R, R,
+    B, B, B, B, R, R, R, R,
+    B, B, B, B, W, W, W, W,
+    B, B, B, B, W, W, W, W,
     R, R, R, R, R, R, R, R,
     R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
-    R, R, R, R, R, R, R, R,
+    W, W, W, W, W, W, W, W,
+    W, W, W, W, W, W, W, W,
     ]
 
 #Excute code
